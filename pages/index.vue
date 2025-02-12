@@ -2,7 +2,7 @@
   <div class="homepage__hero">
     <div class="hero-img__evil-larry">
       <img src="~/assets/evil-larry-larry.png">
-      <div class="homepage__stars-container"">
+      <div class="homepage__stars-container">
         <StarIcon v-for="i in 15" :key="i" />
       </div>
     </div>
